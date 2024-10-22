@@ -116,8 +116,8 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClCompile Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.cpp" />
     <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="project\Asset\camera\Camera.cpp" />
     <ClCompile Include="project\Asset\player\Player.cpp" />
+    <ClCompile Include="project\Asset\view\View.cpp" />
     <ClCompile Include="project\Math\Arithmetic.cpp" />
     <ClCompile Include="project\Math\Math.cpp" />
   </ItemGroup>
@@ -149,8 +149,8 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClInclude Include="C:\KamataEngine\DirectXGame\input\Input.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\scene\GameScene.h" />
     <ClInclude Include="C:\KamataEngine\Adapter\Novice.h" />
-    <ClInclude Include="project\Asset\camera\Camera.h" />
     <ClInclude Include="project\Asset\player\Player.h" />
+    <ClInclude Include="project\Asset\view\View.h" />
     <ClInclude Include="project\Math\Arithmetic.h" />
     <ClInclude Include="project\Math\Math.h" />
     <ClInclude Include="project\Process\MyStruct.h" />

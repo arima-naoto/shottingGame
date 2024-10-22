@@ -59,7 +59,7 @@
     <ClCompile Include="project\Asset\player\Player.cpp">
       <Filter>project\Assets</Filter>
     </ClCompile>
-    <ClCompile Include="project\Asset\camera\Camera.cpp">
+    <ClCompile Include="project\Asset\view\View.cpp">
       <Filter>project\Assets</Filter>
     </ClCompile>
   </ItemGroup>
@@ -147,7 +147,7 @@
     <ClInclude Include="project\Asset\player\Player.h">
       <Filter>project\Assets</Filter>
     </ClInclude>
-    <ClInclude Include="project\Asset\camera\Camera.h">
+    <ClInclude Include="project\Asset\view\View.h">
       <Filter>project\Assets</Filter>
     </ClInclude>
   </ItemGroup>

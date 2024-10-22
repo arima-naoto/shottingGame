@@ -44,11 +44,11 @@ Matrix3x3 Math::MakeTranslateMatrix(const Vector2& translate) {
 	};
 }
 
-Matrix3x3 Math::MakeAffineMatrix(const Affine&affine){
+Matrix3x3 Math::AffineMatrix(const Affine&affine){
 	return MakeScaleMatrix(affine.scale) * MakeRotateMatrix(affine.theta) * MakeTranslateMatrix(affine.translate);
 }
 
-Matrix3x3 Math::MakeOrthoGraphicMatrix(const LeftAndSize<float>& ortho) {
+Matrix3x3 Math::OrthoGraphicMatrix(const LeftAndSize<float>& ortho) {
 	return {
 		2.0f / (ortho.right - ortho.left),0,0,
 		0,2.0f / (ortho.top - ortho.bottom),0,
@@ -56,7 +56,7 @@ Matrix3x3 Math::MakeOrthoGraphicMatrix(const LeftAndSize<float>& ortho) {
 	};
 }
 
-Matrix3x3 Math::MakeViewportMatrix(const Viewport<float>&viewport){
+Matrix3x3 Math::ViewportMatrix(const Viewport<float>&viewport){
 	return {
 		viewport.wigth / 2.0f,0,0,
 		0,-viewport.height / 2.0f,0,
